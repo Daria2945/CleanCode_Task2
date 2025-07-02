@@ -1,4 +1,4 @@
-﻿public static int SearchElementIndex(int[] array, int element)
+﻿public static int SearchIndex(int[] array, int element)
 {
     if(array == null)
         throw new ArgumentNullException(nameof(array));
